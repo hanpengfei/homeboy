@@ -1,7 +1,7 @@
 package com.vmloft.develop.library.im.conversation;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 import android.view.ViewGroup;
 

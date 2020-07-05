@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 21
@@ -26,17 +26,18 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion = '30.0.0'
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // 引入 design 库，同时剔除其它库的引用，防止引用多个版本
-    implementation('com.android.support:appcompat-v7:28.0.0') {
+    implementation('androidx.appcompat:appcompat:1.0.0') {
         exclude group: 'com.android.support', module: 'design'
     }
     // 引用新的布局方式库
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     // 一个比较强大的图片浏览控件
     implementation 'com.github.chrisbanes:PhotoView:2.0.0'
@@ -49,6 +50,6 @@ dependencies {
 
     // 自己封装的工具库 VMTools https://github.com/lzan13/VMLibrary
     api 'com.vmloft.library:vmtools:0.9.11'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
 }

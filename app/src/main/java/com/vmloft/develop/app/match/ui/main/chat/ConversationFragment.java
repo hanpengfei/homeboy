@@ -1,19 +1,15 @@
 package com.vmloft.develop.app.match.ui.main.chat;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import android.view.View;
 
 import com.vmloft.develop.app.match.R;
 import com.vmloft.develop.app.match.base.AppLazyFragment;
-import com.vmloft.develop.app.match.router.ARouter;
 import com.vmloft.develop.library.im.conversation.IMConversationFragment;
 import com.vmloft.develop.library.tools.utils.VMDimen;
 import com.vmloft.develop.library.tools.widget.VMTopBar;
-import com.vmloft.develop.library.tools.widget.toast.VMToast;
-
-import butterknife.OnClick;
 
 /**
  * Create by lzan13 on 2019/05/28 12:54

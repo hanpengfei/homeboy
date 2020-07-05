@@ -4,8 +4,8 @@ import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.TimeInterpolator;
-import android.support.annotation.Nullable;
-import android.support.annotation.Size;
+import androidx.annotation.Nullable;
+import androidx.annotation.Size;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 

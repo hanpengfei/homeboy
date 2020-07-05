@@ -5,15 +5,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.ColorStateList;
-import android.support.v4.content.LocalBroadcastManager;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.hyphenate.chat.EMMessage;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import com.hyphenate.chat.EMMessage;
 import com.vmloft.develop.library.im.IM;
 import com.vmloft.develop.library.im.R;
 import com.vmloft.develop.library.im.common.IMConstants;

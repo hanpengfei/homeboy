@@ -1,7 +1,7 @@
 package com.vmloft.develop.app.match.base;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import com.vmloft.develop.library.tools.adapter.VMFragmentPagerAdapter;
 

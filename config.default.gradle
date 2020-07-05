@@ -3,7 +3,7 @@ ext {
     defaults = [
         applicationId: "com.vmloft.develop.app.match",
         minSdkVersion: 21,
-        targetSdkVersion: 28,
+        targetSdkVersion: 30,
         versionCode: 1,
         versionName: "1.0.0",
     ]

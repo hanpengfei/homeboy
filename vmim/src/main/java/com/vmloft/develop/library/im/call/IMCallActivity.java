@@ -8,8 +8,10 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v4.content.LocalBroadcastManager;
 import android.view.WindowManager;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
 import com.vmloft.develop.library.im.base.IMBaseActivity;
 import com.vmloft.develop.library.im.bean.IMContact;
 import com.vmloft.develop.library.im.common.IMConstants;

@@ -1,8 +1,9 @@
 package com.vmloft.develop.library.im.base;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
 import android.view.View;
+
+import androidx.fragment.app.Fragment;
 
 import com.vmloft.develop.library.im.R;
 import com.vmloft.develop.library.tools.base.VMBActivity;

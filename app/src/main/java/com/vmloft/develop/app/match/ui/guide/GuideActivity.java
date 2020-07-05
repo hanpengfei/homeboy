@@ -1,9 +1,8 @@
 package com.vmloft.develop.app.match.ui.guide;
 
-import android.animation.ArgbEvaluator;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.view.ViewPager;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 import android.widget.Button;
 
@@ -12,7 +11,6 @@ import com.vmloft.develop.app.match.R;
 import com.vmloft.develop.app.match.common.ASPManager;
 import com.vmloft.develop.app.match.router.ARouter;
 import com.vmloft.develop.library.tools.adapter.VMFragmentPagerAdapter;
-import com.vmloft.develop.library.tools.utils.VMColor;
 import com.vmloft.develop.library.tools.widget.indicator.VMIndicatorView;
 
 import java.util.ArrayList;

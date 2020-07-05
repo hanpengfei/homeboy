@@ -1,12 +1,12 @@
 package com.vmloft.develop.library.im.chat;
 
 import android.app.Activity;
-import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.github.chrisbanes.photoview.OnPhotoTapListener;
+import androidx.viewpager.widget.PagerAdapter;
+
 import com.github.chrisbanes.photoview.PhotoView;
 
 import com.hyphenate.chat.EMImageMessageBody;
@@ -14,7 +14,6 @@ import com.hyphenate.chat.EMMessage;
 
 import com.vmloft.develop.library.im.IM;
 import com.vmloft.develop.library.tools.picker.IPictureLoader;
-import com.vmloft.develop.library.tools.picker.VMPicker;
 import com.vmloft.develop.library.tools.utils.VMDimen;
 
 import com.vmloft.develop.library.tools.utils.VMFile;

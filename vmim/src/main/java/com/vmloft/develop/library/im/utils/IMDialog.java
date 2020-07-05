@@ -2,7 +2,7 @@ package com.vmloft.develop.library.im.utils;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 
 /**
  * Create by lzan13 on 2019/6/9 15:37

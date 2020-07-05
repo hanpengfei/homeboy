@@ -7,7 +7,7 @@ import android.content.IntentFilter;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;

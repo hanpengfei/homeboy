@@ -25,7 +25,7 @@
             android:background="@color/vm_decoration_gray"
             />
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/im_chat_bottom_input_cl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,9 +76,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 />
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/im_chat_bottom_btn_cl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                 app:layout_constraintStart_toEndOf="@+id/im_chat_bottom_record_btn"
                 app:layout_constraintTop_toTopOf="parent"
                 />
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <View
             android:layout_width="match_parent"
@@ -186,7 +186,7 @@
                 />
         </RelativeLayout>
     </RelativeLayout>
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/im_chat_swipe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -195,7 +195,7 @@
         >
 
         <!--展示消息列表-->
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/im_chat_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -203,7 +203,7 @@
             android:focusableInTouchMode="false"
             android:overScrollMode="never"
             />
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <com.vmloft.develop.library.tools.widget.VMEmojiRainView
         android:id="@+id/im_chat_emoji_rain_view"

@@ -1,13 +1,12 @@
 package com.vmloft.develop.library.im.emotion;
 
 import android.content.Context;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import androidx.viewpager.widget.ViewPager;
 
 import com.vmloft.develop.library.im.R;
 import com.vmloft.develop.library.im.common.IMExecutor;
