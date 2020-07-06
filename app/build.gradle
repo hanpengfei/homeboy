@@ -51,6 +51,8 @@ android {
             zipAlignEnabled false
             // 是否开启混淆
             minifyEnabled false
+            versionNameSuffix = defaults.versionCode
+            applicationIdSuffix = defaults.applicationId
         }
         release {
             // 添加参数表示 debug 环境，这里使用测试环境
@@ -170,6 +172,7 @@ dependencies {
         exclude group: "com.android.support"
     }
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
     // ButterKnife 库 https://github.com/JakeWharton/butterknife
@@ -184,8 +187,8 @@ dependencies {
     // 引用自己封装的工具库 vmim 已经引用，这里不在引用，如想单独使用可以按照下边的方式引入
     //    implementation 'com.vmloft.library:vmtools:0.6.8'
     implementation project(':vmim')
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
 
 }
 

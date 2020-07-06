@@ -28,7 +28,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
-        tools:replace="android:appComponentFactory,label,allowBackup">
+        tools:replace="android:allowBackup,icon,theme,label">
         <!-- 入口 Activity -->
         <activity
             android:name=".ui.main.MainActivity"

@@ -19,6 +19,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            versionNameSuffix = defaults.applicationId
+        }
     }
 
     // 设置使用 Java 1.8
@@ -33,7 +36,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // 引入 design 库，同时剔除其它库的引用，防止引用多个版本
-    implementation('androidx.appcompat:appcompat:1.0.0') {
+    implementation('androidx.appcompat:appcompat:1.1.0') {
         exclude group: 'com.android.support', module: 'design'
     }
     // 引用新的布局方式库
@@ -50,6 +53,7 @@ dependencies {
 
     // 自己封装的工具库 VMTools https://github.com/lzan13/VMLibrary
     api 'com.vmloft.library:vmtools:0.9.11'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }
